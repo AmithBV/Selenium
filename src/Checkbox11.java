@@ -19,6 +19,7 @@ public class Checkbox11 {
 		List<WebElement> v = driver.findElements(By.xpath("(//input[@type='checkbox'])[(position()mod 2)=0]"));
 	for(WebElement b:v){
 		b.click();
+		System.out.println("bye");
 
 	}
 	}
