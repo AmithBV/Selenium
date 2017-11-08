@@ -21,6 +21,7 @@ public class Checkbox {
 		b.click();
 System.out.println("hi");
 System.out.println("hi");
+		System.out.println("hi");
 	}
 	}
 }
