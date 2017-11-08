@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Checkbox {
+public class Checkbox11 {
 
 	public static void main(String[] args) {
 		/*System.setProperty("webdriver.chrome.driver", "./res/chromedriver");
@@ -19,8 +19,7 @@ public class Checkbox {
 		List<WebElement> v = driver.findElements(By.xpath("(//input[@type='checkbox'])[(position()mod 2)=0]"));
 	for(WebElement b:v){
 		b.click();
-System.out.println("hi");
-System.out.println("hi");
+
 	}
 	}
 }
