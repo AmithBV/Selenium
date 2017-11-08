@@ -20,6 +20,7 @@ public class Checkbox {
 	for(WebElement b:v){
 		b.click();
 System.out.println("hi");
+System.out.println("hi");
 	}
 	}
 }
